@@ -44,5 +44,6 @@ export default function SelectedContact({ SelectedContactId, setSelectedContactI
   <h2>{contact.name}</h2>
   <h3>{contact.company.catchPhrase}</h3>
   </>
+//I know realistically I should add name, email and phone but these catchphrases are too funny
     );
   }
